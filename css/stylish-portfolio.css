@@ -175,8 +175,13 @@ hr.small {
 	color:#ffffff;
 }
 
-.header #hiddenSpacer {
+.header #DesktopSpacer {
 	height: 270px;
+	width: 10px;
+}
+
+.header #MobileSpacer {
+	height: 50px;
 	width: 10px;
 }
 
