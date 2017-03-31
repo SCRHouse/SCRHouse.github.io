@@ -223,6 +223,10 @@ hr.small {
     opacity: 0.8;
 }
 
+#portfolioAmenities .col-md-4  ul{
+	margin-bottom: 0px;
+}
+
 /* Call to Action */
 
 .call-to-action {
