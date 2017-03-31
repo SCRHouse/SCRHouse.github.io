@@ -171,8 +171,13 @@ hr.small {
 }
 
 .header h3 {	
-	margin-top:280px;
+	/* margin-top:280px; */
 	color:#ffffff;
+}
+
+.header #hiddenSpacer {
+	height: 270px;
+	width: 10px;
 }
 
 /* About */
