@@ -32,7 +32,11 @@
     <![endif]-->
 	
 	<script src="https://use.fontawesome.com/78c5a34179.js"></script>
-
+	<style>
+		#calendarContainer {
+		width: 100%;
+		}
+	</style>
 </head>
 
 <body>
@@ -174,7 +178,7 @@
         </div>
     </aside>
 
-    <!-- Portfolio -->
+    <!-- Portfolio Views -->
     <section id="portfolioViews" class="portfolio">
         <div class="container">
             <div class="row">
@@ -282,7 +286,7 @@
         <!-- /.container -->
     </section>
 	
-	<!-- Portfolio -->
+	<!-- Portfolio House -->
     <section id="portfolioHouse" class="portfolio">
         <div class="container">
             <div class="row">
@@ -360,7 +364,7 @@
         <!-- /.container -->
     </section>
 	
-	<!-- Portfolio -->
+	<!-- Portfolio Amenities -->
     <section id="portfolioAmenities" class="portfolio">
         <div class="container">
             <div class="row">
@@ -372,9 +376,10 @@
                             <ul>
 								<li>24 hour check-in</li>
 								<li>Free Wi-Fi</li>
-								<li>Cable TV with streaming services</li>
-								<li>DVDs and books</li>
-								<li>Family friendly games</li>
+								<li>60" Cable TV with streaming services</li>
+								<li>DVDs, books & games</li>
+								<li>Non-smoking</li>
+								<li>Large back deck</li>
 							</ul>
                         </div>
                         <div class="col-md-4">
@@ -382,17 +387,21 @@
 								<li>Coffee maker</li>
 								<li>Waffle iron</li>
 								<li>Microwave</li>
+								<li>Dishwasher</li>
 								<li>Offset barrel smoker</li>
 								<li>Wood burning fireplace</li>
+								<li>Private dock</li>
+
 							</ul>
                         </div>
 						<div class="col-md-4">
                             <ul>
 								<li>Central AC</li>
+								<li>Jetted tub</li>
 								<li>Washer & dryer</li>
 								<li>Iron & ironing board</li>
 								<li>Hair dryer</li>
-								
+								<li>Bathroom with heated floors</li>
 							</ul>
                         </div>
                         
@@ -403,10 +412,10 @@
                 <!-- /.col-lg-10 -->
             </div>
             <!-- /.row -->
-        </div>
+		</div>	
         <!-- /.container -->
     </section>
-
+	
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
         <div class="container">
@@ -415,13 +424,29 @@
                     <h3>Available for Beta Rental June, 2017</h3>
 							<!-- Button trigger modal -->
 					<button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal">
-					  What is Beta Rental?
+					  Rates
 					</button>
                     <a href="#ContactUs" class="btn btn-lg btn-dark">Contact Us</a>
                 </div>
             </div>
         </div>
     </aside>
+	
+	<!-- Portfolio Calendar -->
+    <section id="portfolioCalendar" class="portfolio">
+        <div class="container" id="calendarContainer">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Availability</h2>
+                    <hr class="small">
+                    <script id='vr_MzE4LS01OGU2N2Q2OWRjNzNj'>window.options = { api_key:'MzE4LS01OGU2N2Q2OWRjNzNj',height:'700px',width:'100%',min_height:'700px'};var s = document.createElement('script');s.src = "http://www.vrcalendarsync.com/embed.js";s.async = true; document.body.appendChild(s);</script>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+		</div>	
+        <!-- /.container -->
+    </section>
 
     <!-- Map -->
     <section id="contact" class="map">
@@ -644,7 +669,16 @@ The St.Clair River House was built as a cottage in 1935 as a Detroiter's vacatio
         // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
     </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-96958275-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 
 </html>
