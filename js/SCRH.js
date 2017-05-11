@@ -1,4 +1,6 @@
-
+$('.carousel').carousel({
+  interval: false
+});
 	  
 //From the custom theme
 //lightbox
