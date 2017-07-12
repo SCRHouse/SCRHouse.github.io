@@ -349,6 +349,13 @@ footer address {
       }
 	  
 iframe {margin:0px auto;}
+
+
+.script {
+	font-family: font146341;
+	font-size: 30pt;
+	color: #006666;
+	} 
 	
 .xs-excluded {display:block;}	
 @media(max-width:600px) {
