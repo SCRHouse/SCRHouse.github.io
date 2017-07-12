@@ -224,7 +224,7 @@ hr.small {
 .article-slide .carousel-indicators img {
     border: 2px solid #FFFFFF;
     float: left;
-    height: 54px;
+    height: 67;
     left: 0;
     width: 100px;
 }
@@ -347,3 +347,15 @@ footer address {
 #map {
         height: 100%;
       }
+	  
+iframe {margin:0px auto;}
+	
+.xs-excluded {display:block;}	
+@media(max-width:600px) {
+    .xs-excluded {display: none;}
+}
+
+.xs-only {display:none;}	  
+@media(max-width:599px) {
+    .xs-only {display: block;}
+}
