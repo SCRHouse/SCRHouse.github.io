@@ -392,14 +392,24 @@ iframe {margin:0px auto;}
 	color: #006666;
 	} 
 	
-.xs-excluded {display:block;}	
+.xs-hide {display:block;}	
 @media(max-width:600px) {
-    .xs-excluded {display: none;}
+    .xs-hide {display: none;}
 }
 
-.xs-only {display:none;}	  
+.xs-show {display:none;}	  
 @media(max-width:599px) {
-    .xs-only {display: block;}
+    .xs-show {display: block;}
+}
+
+.table-xs-hide {display:table;}	
+@media(max-width:600px) {
+    .table-xs-hide {display: none;}
+}
+
+.table-xs-show {display:none;}	  
+@media(max-width:599px) {
+    .table-xs-show {display: table;}
 }
 
 /* Reviews */
@@ -450,3 +460,8 @@ iframe {margin:0px auto;}
 }
 
 /* End Reviews */
+
+.table-rates
+{
+	margin: 0px auto;
+}
