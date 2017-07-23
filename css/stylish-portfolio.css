@@ -253,6 +253,7 @@ hr.small {
 
 /* Callout */
 
+
 .callout {
     display: table;
     width: 100%;
@@ -265,17 +266,45 @@ hr.small {
     -o-background-size: cover;
 }
 
+
 .calloutCat {
     display: table;
     width: 100%;
     height: 650px;
     color: #fff;
-    background: url(../img/cat_callout.jpg) no-repeat center center scroll;
+    background: url(../img/cat_callout2.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+
+
+@media(max-width:1500px) {
+    .calloutCat {
+    
+    height: 400px;
+    
+}
+}
+
+@media(max-width:700px) {
+    .calloutCat {
+    
+    height: 300px;
+    
+}
+}
+
+@media(max-width:500px) {
+    .calloutCat {
+    
+    height: 200px;
+    
+}
+}
+
 
 /* Portfolio */
 
