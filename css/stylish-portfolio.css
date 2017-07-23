@@ -282,27 +282,21 @@ hr.small {
 
 
 @media(max-width:1500px) {
-    .calloutCat {
-    
-    height: 400px;
-    
-}
+    .calloutCat {    
+		height: 400px;
+    }
 }
 
 @media(max-width:700px) {
     .calloutCat {
-    
-    height: 300px;
-    
-}
+		height: 300px;
+    }
 }
 
 @media(max-width:500px) {
     .calloutCat {
-    
-    height: 200px;
-    
-}
+        height: 200px;
+    }
 }
 
 
