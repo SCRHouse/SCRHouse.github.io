@@ -374,10 +374,6 @@ footer address {
 .modal-body {
 	font-size: 14pt;
 }
-
-#calendarContainer {
-		width: 100%;
-		}
 		
 #map {
         height: 100%;
@@ -464,4 +460,8 @@ iframe {margin:0px auto;}
 .table-rates
 {
 	margin: 0px auto;
+}
+
+iframe {
+	height:100%;
 }
